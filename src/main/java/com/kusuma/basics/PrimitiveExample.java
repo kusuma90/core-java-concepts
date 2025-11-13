@@ -1,6 +1,6 @@
 package main.java.com.kusuma.basics;
 
-public class PrimitveExample {
+public class PrimitiveExample {
 
     //1. Primitive: Java has 8 primitive data types such as: byte,short,int,long, double,float,char,boolean
     //These are not objects, stored on stack, have default values.
@@ -41,7 +41,7 @@ public class PrimitveExample {
 
     public static void main(String[] args){
 
-        PrimitveExample primitveExample = new PrimitveExample(); //Created object
+        PrimitiveExample primitveExample = new PrimitiveExample(); //Created object
 
         //Checking what values print for those data variables.
         System.out.println("******** Checking values for variables(default) if don't assign any....");
@@ -220,7 +220,6 @@ public class PrimitveExample {
 
         // 11. Null with wrappers
         //Primitives can't be null, wrappers van -> risk pf NullPointerException on unboxing
-
         Integer x = null;
         System.out.println(x); //print null
         int y =x; // java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "x" is null
