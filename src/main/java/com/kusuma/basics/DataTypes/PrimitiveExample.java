@@ -1,4 +1,4 @@
-package main.java.com.kusuma.basics;
+package main.java.com.kusuma.basics.DataTypes;
 
 public class PrimitiveExample {
 
