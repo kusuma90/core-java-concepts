@@ -126,7 +126,7 @@ public class ControlFlowExamples {
                 System.out.println(i +" , "+j);
             }
         }
-        //forEach loop: simplified form of for.Iterate the loop based on element list.We use for each loop for iterate collections, we cannot use it onn arrays.
+        //forEach loop: Enhanced for loop
         List<String>  languages = Arrays.asList("Java","C","C++","C#");
         for(String lang:languages){
          System.out.println(lang);
