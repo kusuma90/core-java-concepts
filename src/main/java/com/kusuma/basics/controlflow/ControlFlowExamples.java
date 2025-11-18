@@ -118,7 +118,7 @@ public class ControlFlowExamples {
         //labled versions for nested loops
       System.out.println("Break and Continue");
         for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){ // for loop (has 3 parts: initialization,condition, increment/decrement. Iterate loop based on codition.
+            for(int j=0;j<5;j++){ // for loop (has 3 parts: initialization,condition, increment/decrement). Iterate loop based on codition.
                 if(j==3)
                     break;
                 if(j==1)
